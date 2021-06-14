@@ -37,15 +37,17 @@ body{
     margin-top: 141px;
 }
 .detail{
-    margin-left: 53px;
+    margin-left: 52px;
     
 
 }
 .box{
-    width: 315px;
+    width: 267px;
     height: 35px;
-    border-bottom:visible;
+    border: none;
+    border-bottom: 1px solid rgb(202, 198, 198);
     margin: 2px;
+    margin-left: 44px;
 
 }
 .forgot{
@@ -114,7 +116,7 @@ body{
   .signup{
     text-align: center;
   }
-.icon{
+.login-icon{
     padding: 10px;
     background: white;
     color: white;
@@ -146,5 +148,33 @@ body{
 .forgot:hover{
     color: cornflowerblue;
 }
+.icon{
+    padding: 10px;
+    color: gray;
+    min-width: 21px;
+    text-align: center;
+    border-radius: 0px;
+    position: absolute;
+    margin-left: 58px;
+    margin-top: 28px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid rgb(202, 198, 198);
+}
+.fa-lock{
+    padding: 10px;
+    color: gray;
+    min-width: 21px;
+    text-align: center;
+    border-radius: 0px;
+    position: absolute;
+    margin-left: 58px;
+    margin-top: 93px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid rgb(202, 198, 198);
+}
+
+
 
 
